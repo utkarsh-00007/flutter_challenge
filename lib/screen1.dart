@@ -12,7 +12,12 @@ class _Screen1State extends State<Screen1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Flutter Training"),
+        title: Text(
+          "Flutter Training",
+          style: TextStyle(
+              color: Colors.blue, fontSize: 30, fontWeight: FontWeight.bold),
+        ),
+        backgroundColor: Colors.white,
       ),
       body: Column(children: [
         SafeArea(
